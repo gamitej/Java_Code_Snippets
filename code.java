@@ -246,3 +246,54 @@ public class Solution {
     }
 }
 ---------------------------------------------------------------------------------------------
+// code for sorting the array..
+
+// interger array
+import java.util.*;
+public class Solution {
+  
+      public static void main(String[] args)
+    {
+        int[] ar = {5,4,3,2,1};
+        
+        Arrays.sort(ar);
+        
+        for(int i=0;i<ar.length;i++){
+            System.out.print(ar[i]+" ");
+        }        
+    }
+}
+
+// string array
+import java.util.*;
+public class Solution {
+  
+      public static void main(String[] args)
+    {
+        String[] ar = {"sam","gam","ram","kam","lam"};
+        
+        Arrays.sort(ar);
+        
+        for(int i=0;i<ar.length;i++){
+            System.out.print(ar[i]+" ");
+        }        
+    }
+}
+
+// char array
+
+import java.util.*;
+public class Solution {
+  
+      public static void main(String[] args)
+    {
+        char[] ar = {'a','z','b','d','c'};
+        
+        Arrays.sort(ar);
+        
+        for(int i=0;i<ar.length;i++){
+            System.out.print(ar[i]+" ");
+        }        
+    }
+}
+---------------------------------------------------------------------------------------------
